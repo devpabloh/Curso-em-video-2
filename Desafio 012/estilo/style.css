@@ -64,6 +64,8 @@ section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0.250);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem >p {
     display: inline-block;
@@ -75,11 +77,11 @@ section.imagem >p {
 section#img01 {
  background-image: url(../pacote-d012/imagens/background001.jpg);
  background-position: right center;
- background-size: cover;
+ 
 }
 section#img02 {
 background-image: url(../pacote-d012/imagens/background002.jpg);
-background-size: cover;
+
 }
 footer { 
     background-color: black;
